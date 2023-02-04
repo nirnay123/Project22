@@ -7,6 +7,7 @@ var engine, world;
 var canvas;
 var palyer, playerBase, playerArcher;
 var baseimage;
+var backgroundImg, playerimage;
 
 function preload() {
   backgroundImg = loadImage("assets/background.png");
